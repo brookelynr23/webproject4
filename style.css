@@ -1,0 +1,86 @@
+body {
+  background-color: #FAF5E8;
+  color: #173E32;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 3px solid #916A1A;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #173E32;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+h2 {
+  color: #916A1A;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+}
+
+nav a {
+  color: #173E32;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #916A1A;
+  padding: 5px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+main {
+  max-width: 45em;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+main p {
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 1.2em;
+}
+
+
+
+.story-image {
+  float: right;
+  width: 35%;
+  max-width: 220px;
+  height: auto;
+  margin: 10px 0 15px 20px;
+  border: 3px solid #916A1A;
+}
+
+
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #916A1A;
+  font-size: 0.9em;
+}
